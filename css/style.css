@@ -57,14 +57,27 @@ header{
 
 
 
-header img{
-   width: 312px;
-    height: 312px;
+header .pfp{
+       width: 237px;
+    height: 407px;
     border: 22px solid #2d2d27;
     border-radius: 50%;
+    background-image:url('https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/48/Ironheart_Infobox.jpg/revision/latest?cb=20250516014201');
     background-repeat: no-repeat;
     background-position: -120px -24px;
     background-size: 210%;
+    margin: 0 auto;
+} 
+
+header .pfp.Natalie{
+     width: 260px;
+     height: 342px;
+    border: 22px solid#2b3b53;
+    border-radius: 50%;
+    background-image:url('https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d5/N.A.T.A.L.I.E._Infobox.png/revision/latest?cb=20250625040452');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
     margin: 0 auto;
 } 
 
