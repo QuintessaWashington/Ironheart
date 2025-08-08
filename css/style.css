@@ -2,34 +2,96 @@
 
 
 
+
+
 body{
-    background-color: magenta;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+p,ul,ol{
+    font-size: 20px;
+    line-height: 30px;
+    font-style: oblique;
+}
+
+ul,ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+color: blueviolet;
+}
+
+a:visited{
+    color: red;
+}
+p.caption{
+    font-size: 16px;
+    color: rgb(109, 109, 109);
+    font-style: oblique;
+    margin: 0;
+}
 html,body{
     margin: 0;
     padding: 0;
+    
 
 }
 header{
     text-align: center;
     background-color: goldenrod;
     padding: 100px;
+    
 }
 
-header img{
+
+
+header .pfp{
    width: 330px;
     height: 330px;
     border: 22px solid #2d2d27;
     border-radius: 50%;
+    background-size: 210%;
+    margin: 0,auto;
 } 
 
-header H1{
+H1{
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
-    margin: 10px 0 20px 0;
-    color:#2d2d27;
+  margin: 10px 0 20px 0;
+  color:#2d2d27;
 }
 
+h2{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 20px 0;
+     color:#2d2d27;
+    
+}
+main{
+   
+    width: 800px;
+    margin: 0 auto;
+   
+    
+}
+main img{
+   max-width: 100%;
+  
+
+}
